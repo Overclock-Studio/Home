@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overclocked Studio | Home</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 10px;
+            background: linear-gradient(45deg, #1f1f1f, #3a3a3a);
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+        }
+
+        .hero .tagline {
+            font-size: 1.2rem;
+            color: #b3b3b3;
+        }
+
+        /* Section Mods (Long Bars) */
+        section {
+            padding: 80px 20px;
+            width: 100%;
+            text-align: center;
+            background-color: #2b2b2b;
+            margin-bottom: 20px;
+        }
+
+        section:nth-child(even) {
+            background-color: #252525;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #0077ff;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #cfcfcf;
+        }
+
+        /* Portfolio Section */
+        .portfolio-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            width: 480px;
+            height: 100px;
+            background-color: #043d72;
+            border-radius: 8px;
+            border-color: #121212;
+            border-width: 5px;
+            border-style: solid; /* Added this line */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0077ff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            transition: background 0.3s;
+            text-decoration: none;
+        }
+
+        .portfolio-item:hover {
+            background-color: #0077ff;
+            color: #292929;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            background-color: #1f1f1f;
+            color: #b3b3b3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Overclocked Studio</h1>
+        <p class="tagline">Where Mods Accelerate</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="work">
+        <h2>Mods By Us</h2>
+        <div class="portfolio-gallery">
+            <a href="https://ficsit.app/mod/Better_Recipes_x10" class="portfolio-item">Better Alternate Recipes</a>
+            <a href="https://ficsit.app/mod/Better_Milestones" class="portfolio-item">Better Milestones</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Overclocked Studio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
